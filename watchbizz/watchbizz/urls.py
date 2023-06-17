@@ -22,5 +22,5 @@ import myapp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('movie/', include('myapp.api.urls')),
+    path('watch/', include('myapp.api.urls')),
 ]
